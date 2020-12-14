@@ -1,0 +1,72 @@
+PS C:\python\project3> python missing.py
+LR accuracy score:  1.0
+[[29  0  0]
+ [ 0 11  0]
+ [ 0  0 29]]
+              precision    recall  f1-score   support
+
+      Adelie       1.00      1.00      1.00        29
+   Chinstrap       1.00      1.00      1.00        11
+      Gentoo       1.00      1.00      1.00        29
+
+   micro avg       1.00      1.00      1.00        69
+   macro avg       1.00      1.00      1.00        69
+weighted avg       1.00      1.00      1.00        69
+
+CART accuracy score:  0.9565217391304348
+[[26  3  0]
+ [ 0 11  0]
+ [ 0  0 29]]
+              precision    recall  f1-score   support
+
+      Adelie       1.00      0.90      0.95        29
+   Chinstrap       0.79      1.00      0.88        11
+      Gentoo       1.00      1.00      1.00        29
+
+   micro avg       0.96      0.96      0.96        69
+   macro avg       0.93      0.97      0.94        69
+weighted avg       0.97      0.96      0.96        69
+
+PS C:\python\project3> python penguin.py
+LR: 0.985582 (0.017662)
+FFNN: 0.366697 (0.089621)
+CART: 0.956054 (0.033118)
+SVM: 0.571490 (0.034895)
+
+PS C:\python\project3> python winner.py
+LR accuracy score:  0.990072463768116
+CART accuracy score:  0.9738840579710146
+
+PS C:\python\project3> python penguinCART.py
+CART accuracy score:  0.927536231884058
+[[29  4  1]
+ [ 0 11  0]
+ [ 0  0 24]]
+              precision    recall  f1-score   support
+
+      Adelie       1.00      0.85      0.92        34
+   Chinstrap       0.73      1.00      0.85        11
+      Gentoo       0.96      1.00      0.98        24
+
+   micro avg       0.93      0.93      0.93        69
+   macro avg       0.90      0.95      0.92        69
+weighted avg       0.94      0.93      0.93        69
+
+CART -mean- accuracy score:  0.9567391304347828
+
+PS C:\python\project3> python penguinLR.py
+LR accuracy score:  0.9855072463768116
+[[33  1  0]
+ [ 0 11  0]
+ [ 0  0 24]]
+              precision    recall  f1-score   support
+
+      Adelie       1.00      0.97      0.99        34
+   Chinstrap       0.92      1.00      0.96        11
+      Gentoo       1.00      1.00      1.00        24
+
+   micro avg       0.99      0.99      0.99        69
+   macro avg       0.97      0.99      0.98        69
+weighted avg       0.99      0.99      0.99        69
+
+LR -mean- accuracy score:  0.9868260869565219
